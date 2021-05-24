@@ -1,0 +1,8 @@
+rust command tools
+
+https://github.com/sharkdp/fd  cargo install fd-find
+https://github.com/BurntSushi/ripgrep  cargo install ripgrep
+
+部分二进制文件也来之 cygwin 下的二进制文件
+find
+xargs

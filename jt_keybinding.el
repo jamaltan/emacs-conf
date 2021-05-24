@@ -1,0 +1,8 @@
+(global-set-key [(f8)] 'previous-buffer)
+(global-set-key [(f9)] 'next-buffer)
+(if (eq system-type 'windows-nt)
+    (progn (global-set-key [(f10)] 'ffip))
+  (progn (global-set-key [(f10)] 'fiplr-find-file))
+)
+(global-set-key [(f11)] 'find-file-in-project-at-point)
+(global-set-key (kbd "M-m") 'set-mark-command)

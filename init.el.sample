@@ -1,0 +1,16 @@
+(setq package-archives '(("gnu"   . "http://mirrors.tuna.tsinghua.edu.cn/elpa/gnu/")
+                         ("melpa" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/melpa/")))
+(package-initialize) ;; You might already have this line
+
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(ace-window-display-mode t)
+ '(package-selected-packages
+   (quote
+    (go-mode paredit geiser typescript-mode xah-elisp-mode emmet-mode company-go company-web company-php fiplr xah-find company php-mode ac-html ac-php))))
+
+;;(load "e:/tools/emacs-conf/jt_init.el")
+(load "~/emacs-conf/jt_init.el")
